@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nock": "^13.0.2"
+    "@types/jest": "^26.0.4",
+    "@types/node": "^14.0.20",
+    "jest": "^26.1.0",
+    "nock": "^13.0.2",
+    "ts-jest": "^26.1.1"
   }
 }
