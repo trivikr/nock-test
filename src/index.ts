@@ -20,5 +20,7 @@ export function httpRequest(options: RequestOptions): Promise<Buffer> {
         resolve(Buffer.concat(chunks));
       });
     });
+
+    req.end();
   });
 }
